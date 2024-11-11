@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 04 Nov 2024 01:09:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Nov 2024 01:07:59 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,1233 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Nov 11 2024]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2024-11-11.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-11-11.html</guid>
+            <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 4 November 2024">Monday, 4 November 2024</time> through <time title="Monday, 11 November 2024">Monday, 11 November 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-11-11.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +42, -0</h2>
+
+        <h3>Support increases (42)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+                    <span>api ➞ CSSNestedDeclarations
+                    	<a href="https://drafts.csswg.org/css-nesting-1/#cssnesteddeclarations"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSNestedDeclarations ➞ style
+                    	<a href="https://drafts.csswg.org/css-nesting-1/#dom-cssnesteddeclarations-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSViewTransitionRule
+                    	<a href="https://drafts.csswg.org/css-view-transitions-2/#cssviewtransitionrule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSViewTransitionRule ➞ navigation
+                    	<a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-navigation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSViewTransitionRule ➞ types
+                    	<a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-types"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/Element/auxclick_event">api ➞ Element ➞ auxclick_event</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/blocking">api ➞ HTMLLinkElement ➞ blocking</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/blocking">api ➞ HTMLScriptElement ➞ blocking</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/blocking">api ➞ HTMLStyleElement ➞ blocking</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/PageRevealEvent/PageRevealEvent">api ➞ PageRevealEvent ➞ PageRevealEvent</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/PageRevealEvent">api ➞ PageRevealEvent</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/PageRevealEvent/viewTransition">api ➞ PageRevealEvent ➞ viewTransition</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/PageSwapEvent/PageSwapEvent">api ➞ PageSwapEvent ➞ PageSwapEvent</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/PageSwapEvent">api ➞ PageSwapEvent</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/PageSwapEvent/activation">api ➞ PageSwapEvent ➞ activation</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/PageSwapEvent/viewTransition">api ➞ PageSwapEvent ➞ viewTransition</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>CSS</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b4</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b5</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ line-clamp ➞ none
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ ruby-position ➞ over
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ ruby-position ➞ under
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-underline-offset ➞ percentage
+                    	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-underline-offset-percentage"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box
+                    	<a href="https://drafts.csswg.org/css-inline-3/#text-box-shorthand"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box ➞ normal
+                    	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box-edge
+                    	<a href="https://drafts.csswg.org/css-inline-3/#text-box-edge"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box-edge ➞ auto
+                    	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-edge-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box-trim
+                    	<a href="https://drafts.csswg.org/css-inline-3/#text-box-trim"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box-trim ➞ none
+                    	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box-trim ➞ trim-both
+                    	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-both"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box-trim ➞ trim-end
+                    	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-box-trim ➞ trim-start
+                    	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>HTML</h4>
+            <ol>
+                <li>
+                    <span>html ➞ elements ➞ link ➞ blocking
+                    	<a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-link-blocking"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>html ➞ elements ➞ script ➞ blocking
+                    	<a href="https://html.spec.whatwg.org/multipage/scripting.html#attr-script-blocking"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>html ➞ elements ➞ style ➞ blocking
+                    	<a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-style-blocking"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>JAVASCRIPT</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat16">javascript ➞ builtins ➞ DataView ➞ getFloat16</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat16">javascript ➞ builtins ➞ DataView ➞ setFloat16</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array/Float16Array">javascript ➞ builtins ➞ Float16Array ➞ Float16Array</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array">javascript ➞ builtins ➞ Float16Array</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/f16round">javascript ➞ builtins ➞ Math ➞ f16round</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/try">javascript ➞ builtins ➞ Promise ➞ try</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>WEBASSEMBLY</h4>
+            <ol>
+                <li>
+                    <span>webassembly ➞ garbage-collection
+                    	<a href="https://webassembly.github.io/gc/core/bikeshed/#garbage-collection①"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webassembly ➞ tail-calls
+                    	<a href="https://github.com/WebAssembly/tail-call/blob/main/proposals/tail-call/Overview.md"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 107</h2>
+    <details class="section-background">
+      <summary>Show all 107 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (50)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 1 November 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>HTML</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/rel/manifest">html ➞ elements ➞ link ➞ rel ➞ manifest</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ global_attributes ➞ contenteditable ➞ plaintext-only
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ button ➞ command
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ button ➞ commandfor
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/Manifest/display#browser">html ➞ manifest ➞ display ➞ browser</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/Manifest/display#fullscreen">html ➞ manifest ➞ display ➞ fullscreen</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/Manifest/display#minimal-ui">html ➞ manifest ➞ display ➞ minimal-ui</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/Manifest/display#standalone">html ➞ manifest ➞ display ➞ standalone</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTTP</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/accelerometer">http ➞ headers ➞ Permissions-Policy ➞ accelerometer</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/ambient-light-sensor">http ➞ headers ➞ Permissions-Policy ➞ ambient-light-sensor</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/gyroscope">http ➞ headers ➞ Permissions-Policy ➞ gyroscope</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/magnetometer">http ➞ headers ➞ Permissions-Policy ➞ magnetometer</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/picture-in-picture">http ➞ headers ➞ Permissions-Policy ➞ picture-in-picture</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/usb">http ➞ headers ➞ Permissions-Policy ➞ usb</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/xr-spatial-tracking">http ➞ headers ➞ Permissions-Policy ➞ xr-spatial-tracking</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation
+                        <a href="https://w3c.github.io/webauthn/#dom-publickeycredentialcreationoptions-attestation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/PublicKeyCredentialCreationOptions#direct">api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ direct</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/PublicKeyCredentialCreationOptions#enterprise">api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ enterprise</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/PublicKeyCredentialCreationOptions#indirect">api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ indirect</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/PublicKeyCredentialCreationOptions#none">api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ none</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUCommandEncoder ➞ beginComputePass ➞ timestampWrites
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpucomputepassdescriptor-timestampwrites"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUCommandEncoder ➞ beginRenderPass ➞ depthSlice_option
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpurenderpasscolorattachment-depthslice"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUCommandEncoder ➞ beginRenderPass ➞ timestampWrites
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpurenderpassdescriptor-timestampwrites"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createComputePipeline ➞ optional_entryPoint
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createComputePipelineAsync ➞ optional_entryPoint
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createQuerySet ➞ timestamp
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpuquerytype-timestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createRenderPipeline ➞ dual-source-blending
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-dual-source-blending"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createRenderPipeline ➞ optional_entryPoint
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createRenderPipelineAsync ➞ dual-source-blending
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-dual-source-blending"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createRenderPipelineAsync ➞ optional_entryPoint
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUQuerySet ➞ type ➞ timestamp
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpuquerytype-timestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUQueue ➞ copyExternalImageToTexture ➞ htmlimageelement_imagedata_source
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUQueue ➞ submit ➞ validates_command_buffer_uniqueness
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_bgra8unorm-storage
+                        <a href="https://gpuweb.github.io/gpuweb/#bgra8unorm-storage"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_clip-distances
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-clip-distances"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_depth-clip-control
+                        <a href="https://gpuweb.github.io/gpuweb/#depth-clip-control"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_depth32float-stencil8
+                        <a href="https://gpuweb.github.io/gpuweb/#depth32float-stencil8"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_dual-source-blending
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-dual-source-blending"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_float32-blendable
+                        <a href="https://gpuweb.github.io/gpuweb/#float32-blendable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_float32-filterable
+                        <a href="https://gpuweb.github.io/gpuweb/#float32-filterable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_indirect-first-instance
+                        <a href="https://gpuweb.github.io/gpuweb/#indirect-first-instance"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_rg11b10ufloat-renderable
+                        <a href="https://gpuweb.github.io/gpuweb/#rg11b10ufloat-renderable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_shader-f16
+                        <a href="https://gpuweb.github.io/gpuweb/#shader-f16"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_texture-compression-astc
+                        <a href="https://gpuweb.github.io/gpuweb/#texture-compression-astc"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_texture-compression-bc
+                        <a href="https://gpuweb.github.io/gpuweb/#texture-compression-bc"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_texture-compression-etc2
+                        <a href="https://gpuweb.github.io/gpuweb/#texture-compression-etc2"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_timestamp-query
+                        <a href="https://gpuweb.github.io/gpuweb/#timestamp-query"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/commandForElement">api ➞ HTMLButtonElement ➞ commandForElement</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ ReadableStreamBYOBReader ➞ read ➞ options_min_parameter
+                        <a href="https://streams.spec.whatwg.org/#dom-readablestreambyobreaderreadoptions-min"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+                      <span>javascript ➞ builtins ➞ RegExp ➞ escape
+                        <a href="https://tc39.es/proposal-regex-escaping/#sec-regexp.escape"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (50)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 1 November 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation
+              </li>
+              <li>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ direct
+              </li>
+              <li>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ enterprise
+              </li>
+              <li>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ indirect
+              </li>
+              <li>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ attestation ➞ none
+              </li>
+              <li>api ➞ GPUCommandEncoder ➞ beginComputePass ➞ timestampWrites
+              </li>
+              <li>api ➞ GPUCommandEncoder ➞ beginRenderPass ➞ depthSlice_option
+              </li>
+              <li>api ➞ GPUCommandEncoder ➞ beginRenderPass ➞ timestampWrites
+              </li>
+              <li>api ➞ GPUDevice ➞ createComputePipeline ➞ optional_entryPoint
+              </li>
+              <li>api ➞ GPUDevice ➞ createComputePipelineAsync ➞ optional_entryPoint
+              </li>
+              <li>api ➞ GPUDevice ➞ createQuerySet ➞ timestamp
+              </li>
+              <li>api ➞ GPUDevice ➞ createRenderPipeline ➞ dual-source-blending
+              </li>
+              <li>api ➞ GPUDevice ➞ createRenderPipeline ➞ optional_entryPoint
+              </li>
+              <li>api ➞ GPUDevice ➞ createRenderPipelineAsync ➞ dual-source-blending
+              </li>
+              <li>api ➞ GPUDevice ➞ createRenderPipelineAsync ➞ optional_entryPoint
+              </li>
+              <li>api ➞ GPUQuerySet ➞ type ➞ timestamp
+              </li>
+              <li>api ➞ GPUQueue ➞ copyExternalImageToTexture ➞ htmlimageelement_imagedata_source
+              </li>
+              <li>api ➞ GPUQueue ➞ submit ➞ validates_command_buffer_uniqueness
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_bgra8unorm-storage
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_clip-distances
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_depth-clip-control
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_depth32float-stencil8
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_dual-source-blending
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_float32-blendable
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_float32-filterable
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_indirect-first-instance
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_rg11b10ufloat-renderable
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_shader-f16
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_texture-compression-astc
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_texture-compression-bc
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_texture-compression-etc2
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_timestamp-query
+              </li>
+              <li>api ➞ HTMLButtonElement ➞ commandForElement
+              </li>
+              <li>api ➞ ReadableStreamBYOBReader ➞ read ➞ options_min_parameter
+              </li>
+          </ol>
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ properties ➞ text-box
+              </li>
+              <li>css ➞ properties ➞ text-box ➞ normal
+              </li>
+              <li>css ➞ properties ➞ text-box-edge
+              </li>
+              <li>css ➞ properties ➞ text-box-edge ➞ auto
+              </li>
+              <li>css ➞ properties ➞ text-box-trim
+              </li>
+              <li>css ➞ properties ➞ text-box-trim ➞ none
+              </li>
+              <li>css ➞ properties ➞ text-box-trim ➞ trim-both
+              </li>
+              <li>css ➞ properties ➞ text-box-trim ➞ trim-end
+              </li>
+              <li>css ➞ properties ➞ text-box-trim ➞ trim-start
+              </li>
+          </ol>
+            <h4>HTML</h4>
+          <ol>
+              <li>html ➞ elements ➞ button ➞ command
+              </li>
+              <li>html ➞ elements ➞ button ➞ commandfor
+              </li>
+              <li>html ➞ manifest ➞ display ➞ browser
+              </li>
+              <li>html ➞ manifest ➞ display ➞ fullscreen
+              </li>
+              <li>html ➞ manifest ➞ display ➞ minimal-ui
+              </li>
+              <li>html ➞ manifest ➞ display ➞ standalone
+              </li>
+          </ol>
+            <h4>JAVASCRIPT</h4>
+          <ol>
+              <li>javascript ➞ builtins ➞ RegExp ➞ escape
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (7)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 1 November 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ HTMLButtonElement ➞ commandfor
+                  </li>
+              </ol>
+                <h4>CSS</h4>
+              <ol>
+                  <li>css ➞ types ➞ frequency
+                  </li>
+                  <li>css ➞ types ➞ frequency ➞ hz
+                  </li>
+                  <li>css ➞ types ➞ frequency ➞ khz
+                  </li>
+                  <li>css ➞ types ➞ frequency-percentage
+                  </li>
+              </ol>
+                <h4>HTTP</h4>
+              <ol>
+                  <li>http ➞ headers ➞ Permissions-Policy ➞ gamepad
+                  </li>
+                  <li>http ➞ headers ➞ Permissions-Policy ➞ speaker-selection
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.12">v5.6.12</a> <small>(Friday, 1 November 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.14">v5.6.14</a> <small>(Friday, 8 November 2024)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Nov 04 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-11-04.html</link>
@@ -4138,40 +5365,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday, 27 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.6">v5.6.6</a> <small>(Friday, 11 October 2024)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Oct 07 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2024-10-07.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2024-10-07.html</guid>
-            <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday 30 September 2024">Monday 30 September 2024</time> through <time title="Monday 7 October 2024">Monday 7 October 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-10-07.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-	<p class="callout">
-    <strong>There were no new BCD releases in this timeframe.</strong>
-  </p>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			The most recent known BCD release was <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday 27 September 2024)</small>
 			</span>
 		</div>
   </footer>
