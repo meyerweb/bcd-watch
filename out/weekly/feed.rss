@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 30 Dec 2024 01:10:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jan 2025 01:11:08 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,248 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Jan 06 2025]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2025-01-06.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2025-01-06.html</guid>
+            <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 30 December 2024">Monday, 30 December 2024</time> through <time title="Monday, 6 January 2025">Monday, 6 January 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-01-06.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +0, -0</h2>
+
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 26</h2>
+    <details class="section-background">
+      <summary>Show all 26 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (12)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 20 December 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ Navigator ➞ adAuctionComponents
+                        <a href="https://wicg.github.io/fenced-frame/#dom-navigator-adauctioncomponents"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ canLoadAdAuctionFencedFrame
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-canloadadauctionfencedframe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ clearOriginJoinedAdInterestGroups
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-clearoriginjoinedadinterestgroups"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ createAuctionNonce
+                        <a href="https://wicg.github.io/turtledove/#create-auction-nonce"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ deprecatedRunAdAuctionEnforcesKAnonymity
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-deprecatedrunadauctionenforceskanonymity"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ joinAdInterestGroup
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-joinadinterestgroup"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ leaveAdInterestGroup
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-leaveadinterestgroup"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ protectedAudience
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-protectedaudience"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ runAdAuction
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-runadauction"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Navigator ➞ updateAdInterestGroups
+                        <a href="https://wicg.github.io/turtledove/#dom-navigator-updateadinterestgroups"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ ProtectedAudience
+                        <a href="https://wicg.github.io/turtledove/#protectedaudience"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ ProtectedAudience ➞ queryFeatureSupport
+                        <a href="https://wicg.github.io/turtledove/#dom-protectedaudience-queryfeaturesupport"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (13)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 20 December 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ Navigator ➞ adAuctionComponents
+              </li>
+              <li>api ➞ Navigator ➞ canLoadAdAuctionFencedFrame
+              </li>
+              <li>api ➞ Navigator ➞ clearOriginJoinedAdInterestGroups
+              </li>
+              <li>api ➞ Navigator ➞ createAuctionNonce
+              </li>
+              <li>api ➞ Navigator ➞ deprecatedRunAdAuctionEnforcesKAnonymity
+              </li>
+              <li>api ➞ Navigator ➞ joinAdInterestGroup
+              </li>
+              <li>api ➞ Navigator ➞ leaveAdInterestGroup
+              </li>
+              <li>api ➞ Navigator ➞ protectedAudience
+              </li>
+              <li>api ➞ Navigator ➞ runAdAuction
+              </li>
+              <li>api ➞ Navigator ➞ updateAdInterestGroups
+              </li>
+              <li>api ➞ ProtectedAudience
+              </li>
+              <li>api ➞ ProtectedAudience ➞ queryFeatureSupport
+              </li>
+              <li>api ➞ TransformStream ➞ TransformStream ➞ transformer_cancel
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (1)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 20 December 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>HTTP</h4>
+              <ol>
+                  <li>http ➞ headers ➞ Cache-Control ➞ stale-if-error
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.26">v5.6.26</a> <small>(Friday, 20 December 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.27">v5.6.27</a> <small>(Friday, 3 January 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Dec 30 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-12-30.html</link>
@@ -1723,946 +1965,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.20">v5.6.20</a> <small>(Friday, 29 November 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.22">v5.6.22</a> <small>(Friday, 6 December 2024)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Dec 02 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2024-12-02.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2024-12-02.html</guid>
-            <pubDate>Mon, 02 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday, 25 November 2024">Monday, 25 November 2024</time> through <time title="Monday, 2 December 2024">Monday, 2 December 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-12-02.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +10, -0</h2>
-
-        <h3>Support increases (10)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Element/contentvisibilityautostatechange_event">api ➞ Element ➞ contentvisibilityautostatechange_event</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/PushManager/supportedContentEncodings_static">api ➞ PushManager ➞ supportedContentEncodings_static</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ BrowserCaptureMediaStreamTrack ➞ restrictTo
-                    	<a href="https://screen-share.github.io/element-capture/#dom-browsercapturemediastreamtrack-restrictto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ RestrictionTarget
-                    	<a href="https://screen-share.github.io/element-capture/#dom-restrictiontarget"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ RestrictionTarget ➞ fromElement_static
-                    	<a href="https://screen-share.github.io/element-capture/#dom-restrictiontarget-fromelement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>CSS</h4>
-            <ol>
-                <li>
-                    <span>css ➞ properties ➞ align-self ➞ position_absolute_context
-                    	<a href="https://drafts.csswg.org/css-align/#align-self-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ justify-self ➞ position_absolute_context
-                    	<a href="https://drafts.csswg.org/css-align/#justify-self-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ place-self ➞ position_absolute_context
-                    	<a href="https://drafts.csswg.org/css-align/#place-self-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>WEBASSEMBLY</h4>
-            <ol>
-                <li>
-                    <span>webassembly ➞ jsStringBuiltins
-                    	<a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webassembly ➞ memory64
-                    	<a href="https://github.com/WebAssembly/memory64/blob/main/proposals/memory64/Overview.md"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 144</h2>
-    <details class="section-background">
-      <summary>Show all 144 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (52)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 22 November 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/autocorrect">api ➞ HTMLElement ➞ autocorrect</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Serial ➞ requestPort ➞ allowedBluetoothServiceClassIds_option
-                        <a href="https://wicg.github.io/serial/#dom-serialportrequestoptions-allowedbluetoothserviceclassids"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Serial ➞ requestPort ➞ filters_bluetoothServiceClassId
-                        <a href="https://wicg.github.io/serial/#dom-serialportfilter-bluetoothserviceclassid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ SerialPort ➞ connect_event ➞ bluetooth_rfcomm
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ SerialPort ➞ disconnect_event ➞ bluetooth_rfcomm
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ SerialPort ➞ getInfo ➞ bluetoothServiceClassId
-                        <a href="https://wicg.github.io/serial/#dom-serialportinfo-bluetoothserviceclassid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTML</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/autocorrect">html ➞ global_attributes ➞ autocorrect</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>html ➞ elements ➞ input ➞ webkitdirectory
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat/DurationFormat">javascript ➞ builtins ➞ Intl ➞ DurationFormat ➞ DurationFormat</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat">javascript ➞ builtins ➞ Intl ➞ DurationFormat</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat/format">javascript ➞ builtins ➞ Intl ➞ DurationFormat ➞ format</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat/formatToParts">javascript ➞ builtins ➞ Intl ➞ DurationFormat ➞ formatToParts</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat/resolvedOptions">javascript ➞ builtins ➞ Intl ➞ DurationFormat ➞ resolvedOptions</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat/supportedLocalesOf">javascript ➞ builtins ➞ Intl ➞ DurationFormat ➞ supportedLocalesOf</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>WEBEXTENSIONS</h4>
-              <ol>
-                  <li>
-                      <span>webextensions ➞ api ➞ action ➞ setBadgeText ➞ null
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ browserAction ➞ setBadgeText ➞ null
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webextensions ➞ manifest ➞ chrome_settings_overrides ➞ search_provider ➞ search_url_get_params
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webextensions ➞ manifest ➞ chrome_settings_overrides ➞ search_provider ➞ suggest_url_get_params
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ selectors ➞ xr-overlay
-                        <a href="https://immersive-web.github.io/dom-overlays/#selectordef-xr-overlay"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/gradient">css ➞ types ➞ gradient</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient">css ➞ types ➞ gradient ➞ conic-gradient</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ conic-gradient ➞ doubleposition
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ conic-gradient ➞ hue_interpolation_method
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ conic-gradient ➞ interpolation_color_space
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ linear-gradient ➞ doubleposition
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ linear-gradient ➞ hue_interpolation_method
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ linear-gradient ➞ interpolation_color_space
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ linear-gradient ➞ interpolation_hints
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ linear-gradient ➞ premultiplied_gradients
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ linear-gradient ➞ to
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ linear-gradient ➞ unitless_0_angle
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ radial-gradient ➞ at
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ radial-gradient ➞ doubleposition
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ radial-gradient ➞ hue_interpolation_method
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ radial-gradient ➞ interpolation_color_space
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ radial-gradient ➞ interpolation_hints
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ radial-gradient ➞ premultiplied_gradients
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient">css ➞ types ➞ gradient ➞ repeating-conic-gradient</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-conic-gradient ➞ hue_interpolation_method
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-conic-gradient ➞ interpolation_color_space
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ doubleposition
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ hue_interpolation_method
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ interpolation_color_space
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ interpolation_hints
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ to
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ unitless_0_angle
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ at
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ doubleposition
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ hue_interpolation_method
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ interpolation_color_space
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ interpolation_hints
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ transform-function ➞ perspective ➞ none
-                        <a href="https://drafts.csswg.org/css-transforms-2/#funcdef-perspective"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (50)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 22 November 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ BrowserCaptureMediaStreamTrack ➞ restrictTo
-              </li>
-              <li>api ➞ RestrictionTarget
-              </li>
-              <li>api ➞ RestrictionTarget ➞ fromElement_static
-              </li>
-              <li>api ➞ Serial ➞ requestPort ➞ allowedBluetoothServiceClassIds_option
-              </li>
-              <li>api ➞ Serial ➞ requestPort ➞ filters_bluetoothServiceClassId
-              </li>
-              <li>api ➞ SerialPort ➞ connect_event ➞ bluetooth_rfcomm
-              </li>
-              <li>api ➞ SerialPort ➞ disconnect_event ➞ bluetooth_rfcomm
-              </li>
-              <li>api ➞ SerialPort ➞ getInfo ➞ bluetoothServiceClassId
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ selectors ➞ xr-overlay
-              </li>
-              <li>css ➞ types ➞ gradient
-              </li>
-              <li>css ➞ types ➞ gradient ➞ conic-gradient
-              </li>
-              <li>css ➞ types ➞ gradient ➞ conic-gradient ➞ doubleposition
-              </li>
-              <li>css ➞ types ➞ gradient ➞ conic-gradient ➞ hue_interpolation_method
-              </li>
-              <li>css ➞ types ➞ gradient ➞ conic-gradient ➞ interpolation_color_space
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient ➞ doubleposition
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient ➞ hue_interpolation_method
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient ➞ interpolation_color_space
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient ➞ interpolation_hints
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient ➞ premultiplied_gradients
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient ➞ to
-              </li>
-              <li>css ➞ types ➞ gradient ➞ linear-gradient ➞ unitless_0_angle
-              </li>
-              <li>css ➞ types ➞ gradient ➞ radial-gradient
-              </li>
-              <li>css ➞ types ➞ gradient ➞ radial-gradient ➞ at
-              </li>
-              <li>css ➞ types ➞ gradient ➞ radial-gradient ➞ doubleposition
-              </li>
-              <li>css ➞ types ➞ gradient ➞ radial-gradient ➞ hue_interpolation_method
-              </li>
-              <li>css ➞ types ➞ gradient ➞ radial-gradient ➞ interpolation_color_space
-              </li>
-              <li>css ➞ types ➞ gradient ➞ radial-gradient ➞ interpolation_hints
-              </li>
-              <li>css ➞ types ➞ gradient ➞ radial-gradient ➞ premultiplied_gradients
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-conic-gradient
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-conic-gradient ➞ hue_interpolation_method
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-conic-gradient ➞ interpolation_color_space
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-linear-gradient
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ doubleposition
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ hue_interpolation_method
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ interpolation_color_space
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ interpolation_hints
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ to
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-linear-gradient ➞ unitless_0_angle
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-radial-gradient
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ at
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ doubleposition
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ hue_interpolation_method
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ interpolation_color_space
-              </li>
-              <li>css ➞ types ➞ gradient ➞ repeating-radial-gradient ➞ interpolation_hints
-              </li>
-              <li>css ➞ types ➞ transform-function ➞ perspective ➞ none
-              </li>
-          </ol>
-            <h4>HTML</h4>
-          <ol>
-              <li>html ➞ elements ➞ input ➞ webkitdirectory
-              </li>
-          </ol>
-            <h4>WEBASSEMBLY</h4>
-          <ol>
-              <li>webassembly ➞ memory64
-              </li>
-          </ol>
-            <h4>WEBEXTENSIONS</h4>
-          <ol>
-              <li>webextensions ➞ manifest ➞ chrome_settings_overrides ➞ search_provider ➞ search_url_get_params
-              </li>
-              <li>webextensions ➞ manifest ➞ chrome_settings_overrides ➞ search_provider ➞ suggest_url_get_params
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (42)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 22 November 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>API</h4>
-              <ol>
-                  <li>api ➞ NavigateEvent ➞ restoreScroll
-                  </li>
-                  <li>api ➞ NavigateEvent ➞ transitionWhile
-                  </li>
-              </ol>
-                <h4>CSS</h4>
-              <ol>
-                  <li>css ➞ selectors ➞ target-within
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ conic-gradient
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ conic-gradient ➞ doubleposition
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ conic-gradient ➞ hue_interpolation_method
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ conic-gradient ➞ interpolation_color_space
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient ➞ doubleposition
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient ➞ hue_interpolation_method
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient ➞ interpolation_color_space
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient ➞ interpolation_hints
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient ➞ premultiplied_gradients
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient ➞ to
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ linear-gradient ➞ unitless_0_angle
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ radial-gradient
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ radial-gradient ➞ at
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ radial-gradient ➞ doubleposition
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ radial-gradient ➞ hue_interpolation_method
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ radial-gradient ➞ interpolation_color_space
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ radial-gradient ➞ interpolation_hints
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ radial-gradient ➞ premultiplied_gradients
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-conic-gradient
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-conic-gradient ➞ hue_interpolation_method
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-conic-gradient ➞ interpolation_color_space
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-linear-gradient
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-linear-gradient ➞ doubleposition
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-linear-gradient ➞ hue_interpolation_method
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-linear-gradient ➞ interpolation_color_space
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-linear-gradient ➞ interpolation_hints
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-linear-gradient ➞ to
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-linear-gradient ➞ unitless_0_angle
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-radial-gradient
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-radial-gradient ➞ at
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-radial-gradient ➞ doubleposition
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-radial-gradient ➞ hue_interpolation_method
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-radial-gradient ➞ interpolation_color_space
-                  </li>
-                  <li>css ➞ types ➞ image ➞ gradient ➞ repeating-radial-gradient ➞ interpolation_hints
-                  </li>
-                  <li>css ➞ types ➞ image ➞ image
-                  </li>
-              </ol>
-                <h4>SVG</h4>
-              <ol>
-                  <li>svg ➞ elements ➞ feFlood ➞ flood-color
-                  </li>
-                  <li>svg ➞ elements ➞ feFlood ➞ flood-opacity
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.18">v5.6.18</a> <small>(Friday, 22 November 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.20">v5.6.20</a> <small>(Friday, 29 November 2024)</small>
 			</span>
 		</div>
   </footer>
