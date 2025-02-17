@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 10 Feb 2025 01:08:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Feb 2025 01:10:19 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,736 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Feb 17 2025]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2025-02-17.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2025-02-17.html</guid>
+            <pubDate>Mon, 17 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 10 February 2025">Monday, 10 February 2025</time> through <time title="Monday, 17 February 2025">Monday, 17 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-17.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +9, -0</h2>
+
+        <h3>Support increases (9)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+                    <span>api ➞ CookieChangeEvent ➞ changed ➞ name_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-name"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CookieChangeEvent ➞ changed ➞ value_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-value"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CookieChangeEvent ➞ deleted ➞ name_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-name"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CookieChangeEvent ➞ deleted ➞ value_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-value"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CookieStore ➞ get ➞ name_return_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-name"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CookieStore ➞ get ➞ value_return_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-value"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CookieStore ➞ getAll ➞ name_return_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-name"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CookieStore ➞ getAll ➞ value_return_property
+                    	<a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-value"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>JAVASCRIPT</h4>
+            <ol>
+                <li>
+                    <span>javascript ➞ builtins ➞ Error ➞ captureStackTrace
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 88</h2>
+    <details class="section-background">
+      <summary>Show all 88 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (40)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 7 February 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/Window/trustedTypes">api ➞ trustedTypes</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ changed ➞ domain_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-domain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ changed ➞ expires_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-expires"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ changed ➞ path_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-path"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ changed ➞ sameSite_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-samesite"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ changed ➞ secure_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-secure"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ deleted ➞ domain_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-domain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ deleted ➞ expires_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-expires"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ deleted ➞ path_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-path"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ deleted ➞ sameSite_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-samesite"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieChangeEvent ➞ deleted ➞ secure_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-secure"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ get ➞ domain_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-domain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ get ➞ expires_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-expires"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ get ➞ path_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-path"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ get ➞ sameSite_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-samesite"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ get ➞ secure_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-secure"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ getAll ➞ domain_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-domain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ getAll ➞ expires_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-expires"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ getAll ➞ path_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-path"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ getAll ➞ sameSite_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-samesite"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ CookieStore ➞ getAll ➞ secure_return_property
+                        <a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-secure"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Document ➞ write ➞ accepts_TrustedHTML
+                        <a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#document-write-steps,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#:~:text&#x3D;if%20value%20is%20a%20trustedhtml%20object"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Document ➞ writeln ➞ accepts_TrustedHTML
+                        <a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-writeln"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Element ➞ innerHTML ➞ accepts_TrustedHTML
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLButtonElement ➞ popoverTargetElement ➞ implicit_anchor_reference
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLElement ➞ innerText ➞ scripts_accept_TrustedScript
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-innertext"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLElement ➞ showPopover ➞ source
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLElement ➞ showPopover ➞ source ➞ implicit_anchor_reference
+                        <a href="https://html.spec.whatwg.org/multipage/popover.html#:~:text&#x3D;Set%20element&#x27;s%20implicit%20anchor%20element%20to%20invoker."><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLElement ➞ togglePopover ➞ source
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLElement ➞ togglePopover ➞ source ➞ implicit_anchor_reference
+                        <a href="https://html.spec.whatwg.org/multipage/popover.html#:~:text&#x3D;Set%20element&#x27;s%20implicit%20anchor%20element%20to%20invoker."><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLInputElement ➞ popoverTargetElement ➞ implicit_anchor_reference
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLScriptElement ➞ src ➞ accepts_TrustedScriptURL
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-src"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLScriptElement ➞ text ➞ accepts_TrustedScript
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-text"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Node ➞ textContent ➞ scripts_accept_TrustedScript
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-textcontent"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ ShadowRoot ➞ innerHTML ➞ accepts_TrustedHTML
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ setInterval ➞ code_param_accepts_trustedScript
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ setTimeout ➞ code_param_accepts_trustedScript
+                        <a href="https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTML</h4>
+              <ol>
+                  <li>
+                      <span>html ➞ elements ➞ button ➞ popovertarget ➞ implicit_anchor_reference
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ input ➞ popovertarget ➞ implicit_anchor_reference
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+                      <span>javascript ➞ builtins ➞ Error ➞ stackTraceLimit
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (48)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 7 February 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ CookieChangeEvent ➞ changed ➞ domain_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ changed ➞ expires_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ changed ➞ name_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ changed ➞ path_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ changed ➞ sameSite_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ changed ➞ secure_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ changed ➞ value_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ deleted ➞ domain_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ deleted ➞ expires_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ deleted ➞ name_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ deleted ➞ path_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ deleted ➞ sameSite_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ deleted ➞ secure_property
+              </li>
+              <li>api ➞ CookieChangeEvent ➞ deleted ➞ value_property
+              </li>
+              <li>api ➞ CookieStore ➞ get ➞ domain_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ get ➞ expires_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ get ➞ name_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ get ➞ path_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ get ➞ sameSite_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ get ➞ secure_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ get ➞ value_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ getAll ➞ domain_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ getAll ➞ expires_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ getAll ➞ name_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ getAll ➞ path_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ getAll ➞ sameSite_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ getAll ➞ secure_return_property
+              </li>
+              <li>api ➞ CookieStore ➞ getAll ➞ value_return_property
+              </li>
+              <li>api ➞ Document ➞ write ➞ accepts_TrustedHTML
+              </li>
+              <li>api ➞ Document ➞ writeln ➞ accepts_TrustedHTML
+              </li>
+              <li>api ➞ Element ➞ innerHTML ➞ accepts_TrustedHTML
+              </li>
+              <li>api ➞ HTMLButtonElement ➞ popoverTargetElement ➞ implicit_anchor_reference
+              </li>
+              <li>api ➞ HTMLElement ➞ innerText ➞ scripts_accept_TrustedScript
+              </li>
+              <li>api ➞ HTMLElement ➞ showPopover ➞ source
+              </li>
+              <li>api ➞ HTMLElement ➞ showPopover ➞ source ➞ implicit_anchor_reference
+              </li>
+              <li>api ➞ HTMLElement ➞ togglePopover ➞ source
+              </li>
+              <li>api ➞ HTMLElement ➞ togglePopover ➞ source ➞ implicit_anchor_reference
+              </li>
+              <li>api ➞ HTMLInputElement ➞ popoverTargetElement ➞ implicit_anchor_reference
+              </li>
+              <li>api ➞ HTMLScriptElement ➞ src ➞ accepts_TrustedScriptURL
+              </li>
+              <li>api ➞ HTMLScriptElement ➞ text ➞ accepts_TrustedScript
+              </li>
+              <li>api ➞ Node ➞ textContent ➞ scripts_accept_TrustedScript
+              </li>
+              <li>api ➞ ShadowRoot ➞ innerHTML ➞ accepts_TrustedHTML
+              </li>
+              <li>api ➞ setInterval ➞ code_param_accepts_trustedScript
+              </li>
+              <li>api ➞ setTimeout ➞ code_param_accepts_trustedScript
+              </li>
+          </ol>
+            <h4>HTML</h4>
+          <ol>
+              <li>html ➞ elements ➞ button ➞ popovertarget ➞ implicit_anchor_reference
+              </li>
+              <li>html ➞ elements ➞ input ➞ popovertarget ➞ implicit_anchor_reference
+              </li>
+          </ol>
+            <h4>JAVASCRIPT</h4>
+          <ol>
+              <li>javascript ➞ builtins ➞ Error ➞ captureStackTrace
+              </li>
+              <li>javascript ➞ builtins ➞ Error ➞ stackTraceLimit
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (0)</h3>
+        <div class="outline-container">
+          No features were removed from bcd in this time period
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.37">v5.6.37</a> <small>(Friday, 7 February 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.39">v5.6.39</a> <small>(Friday, 14 February 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Feb 10 2025]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2025-02-10.html</link>
@@ -4279,214 +5009,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.29">v5.6.29</a> <small>(Friday, 10 January 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.31">v5.6.31</a> <small>(Friday, 17 January 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Jan 13 2025]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2025-01-13.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2025-01-13.html</guid>
-            <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday, 6 January 2025">Monday, 6 January 2025</time> through <time title="Monday, 13 January 2025">Monday, 13 January 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-01-13.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +7, -0</h2>
-
-        <h3>Support increases (7)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-                    <span>api ➞ PublicKeyCredential ➞ getClientCapabilities_static
-                    	<a href="https://w3c.github.io/webauthn/#sctn-getClientCapabilities"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ RTCStatsReport ➞ type_inbound-rtp ➞ mid
-                    	<a href="https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-mid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ RTCStatsReport ➞ type_outbound-rtp ➞ mid
-                    	<a href="https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-mid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ RTCStatsReport ➞ type_outbound-rtp ➞ rid
-                    	<a href="https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-rid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>JAVASCRIPT</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON">javascript ➞ builtins ➞ JSON ➞ isRawJSON</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#the_reviver_parameter">javascript ➞ builtins ➞ JSON ➞ parse ➞ reviver_parameter_context_argument</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON">javascript ➞ builtins ➞ JSON ➞ rawJSON</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 6</h2>
-    <details class="section-background">
-      <summary>Show all 6 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (4)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 3 January 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/CSS/supports_static">api ➞ CSS ➞ supports_static</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ReadableStreamBYOBReader ➞ releaseLock ➞ reject_pending_read_request
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ReadableStreamDefaultReader ➞ releaseLock ➞ reject_pending_read_request
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ CSS ➞ supports_static ➞ optional_parens
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (2)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 3 January 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ CSS ➞ supports_static ➞ optional_parens
-              </li>
-              <li>api ➞ RTCStatsReport ➞ type_outbound-rtp ➞ rid
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (0)</h3>
-        <div class="outline-container">
-          No features were removed from bcd in this time period
-    </details>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.27">v5.6.27</a> <small>(Friday, 3 January 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.29">v5.6.29</a> <small>(Friday, 10 January 2025)</small>
 			</span>
 		</div>
   </footer>
