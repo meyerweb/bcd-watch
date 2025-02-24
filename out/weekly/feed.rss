@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 17 Feb 2025 01:10:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Feb 2025 01:10:26 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,488 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Feb 24 2025]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2025-02-24.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2025-02-24.html</guid>
+            <pubDate>Mon, 24 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 17 February 2025">Monday, 17 February 2025</time> through <time title="Monday, 24 February 2025">Monday, 24 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-24.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +20, -0</h2>
+
+        <h3>Support increases (20)</h3>
+        <section class="added implementations">
+            <h4>JAVASCRIPT</h4>
+            <ol>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ AsyncDisposableStack
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ adopt
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ defer
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ disposeAsync
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ disposed
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ move
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ use
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack ➞ DisposableStack
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack ➞ adopt
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack ➞ defer
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack ➞ dispose
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack ➞ disposed
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack ➞ move
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ DisposableStack ➞ use
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ SuppressedError ➞ SuppressedError
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ SuppressedError
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ Symbol ➞ asyncDispose
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>javascript ➞ builtins ➞ Symbol ➞ dispose
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 39</h2>
+    <details class="section-background">
+      <summary>Show all 39 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (11)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 14 February 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/requestClose">api ➞ HTMLDialogElement ➞ requestClose</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ fetch ➞ init_priority_parameter
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars">css ➞ properties ➞ hyphenate-limit-chars</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ at-rules ➞ container ➞ scroll-state_queries
+                        <a href="https://drafts.csswg.org/css-conditional-5/#scroll-state-container"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ at-rules ➞ container ➞ scroll-state_queries ➞ scrollable
+                        <a href="https://drafts.csswg.org/css-conditional-5/#scrollable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ at-rules ➞ container ➞ scroll-state_queries ➞ snapped
+                        <a href="https://drafts.csswg.org/css-conditional-5/#snapped"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ at-rules ➞ container ➞ scroll-state_queries ➞ stuck
+                        <a href="https://drafts.csswg.org/css-conditional-5/#stuck"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTTP</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Form-Factors">http ➞ headers ➞ Sec-CH-UA-Form-Factors</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-WoW64">http ➞ headers ➞ Sec-CH-UA-WoW64</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+                      <span>javascript ➞ statements ➞ export ➞ arbitrary_module_namespace_identifier_names
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>javascript ➞ statements ➞ import ➞ arbitrary_module_namespace_identifier_names
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (28)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 14 February 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ at-rules ➞ container ➞ scroll-state_queries
+              </li>
+              <li>css ➞ at-rules ➞ container ➞ scroll-state_queries ➞ scrollable
+              </li>
+              <li>css ➞ at-rules ➞ container ➞ scroll-state_queries ➞ snapped
+              </li>
+              <li>css ➞ at-rules ➞ container ➞ scroll-state_queries ➞ stuck
+              </li>
+          </ol>
+            <h4>HTTP</h4>
+          <ol>
+              <li>http ➞ headers ➞ Sec-CH-UA-Form-Factors
+              </li>
+              <li>http ➞ headers ➞ Sec-CH-UA-WoW64
+              </li>
+          </ol>
+            <h4>JAVASCRIPT</h4>
+          <ol>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ AsyncDisposableStack
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ adopt
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ defer
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ disposeAsync
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ disposed
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ move
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ use
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ DisposableStack
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ adopt
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ defer
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ dispose
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ disposed
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ move
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ use
+              </li>
+              <li>javascript ➞ builtins ➞ SuppressedError ➞ SuppressedError
+              </li>
+              <li>javascript ➞ builtins ➞ SuppressedError
+              </li>
+              <li>javascript ➞ builtins ➞ Symbol ➞ asyncDispose
+              </li>
+              <li>javascript ➞ builtins ➞ Symbol ➞ dispose
+              </li>
+              <li>javascript ➞ statements ➞ export ➞ arbitrary_module_namespace_identifier_names
+              </li>
+              <li>javascript ➞ statements ➞ import ➞ arbitrary_module_namespace_identifier_names
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (0)</h3>
+        <div class="outline-container">
+          No features were removed from bcd in this time period
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.39">v5.6.39</a> <small>(Friday, 14 February 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.41">v5.6.41</a> <small>(Friday, 21 February 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Feb 17 2025]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2025-02-17.html</link>
@@ -4613,402 +5095,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.31">v5.6.31</a> <small>(Friday, 17 January 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.33">v5.6.33</a> <small>(Friday, 24 January 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Jan 20 2025]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2025-01-20.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2025-01-20.html</guid>
-            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday, 13 January 2025">Monday, 13 January 2025</time> through <time title="Monday, 20 January 2025">Monday, 20 January 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-01-20.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +18, -0</h2>
-
-        <h3>Support increases (18)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-                    <span>api ➞ PublicKeyCredential ➞ getClientCapabilities_static
-                    	<a href="https://w3c.github.io/webauthn/#sctn-getClientCapabilities"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Animation ➞ overallProgress
-                    	<a href="https://drafts.csswg.org/web-animations-2/#dom-animation-overallprogress"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Document ➞ moveBefore
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ DocumentFragment ➞ moveBefore
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Element ➞ moveBefore
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ FileSystemObserver ➞ FileSystemObserver
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ FileSystemObserver
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ FileSystemObserver ➞ disconnect
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ FileSystemObserver ➞ observe
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ HTMLAreaElement ➞ attributionSrc
-                    	<a href="https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceResourceTiming ➞ finalResponseHeadersStart
-                    	<a href="https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-finalresponseheadersstart"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>CSS</h4>
-            <ol>
-                <li>
-                    <span>css ➞ types ➞ attr ➞ fallback
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ types ➞ attr ➞ type-or-unit
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ container-type ➞ scroll-state
-                    	<a href="https://drafts.csswg.org/css-conditional-5/#valdef-container-type-scroll-state"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ scroll-initial-target
-                    	<a href="https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-initial-target"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ scroll-initial-target ➞ nearest
-                    	<a href="https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-initial-target-nearest"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ scroll-initial-target ➞ none
-                    	<a href="https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-initial-target-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>WEBASSEMBLY</h4>
-            <ol>
-                <li>
-                    <span>webassembly ➞ memory64
-                    	<a href="https://github.com/WebAssembly/memory64/blob/main/proposals/memory64/Overview.md"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 24</h2>
-    <details class="section-background">
-      <summary>Show all 24 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (5)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 10 January 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ GPUDevice ➞ adapterInfo
-                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpudevice-adapterinfo"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ IdentityProvider ➞ resolve_static
-                        <a href="https://w3c-fedid.github.io/FedCM/#dom-identityprovider-resolve"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ getInterestGroupAdAuctionData
-                        <a href="https://wicg.github.io/turtledove/#getInterestGroupAdAuctionData"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ body_readablestream
-                        <a href="https://fetch.spec.whatwg.org/#concept-body-stream"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>
-                      <span>javascript ➞ builtins ➞ Atomics ➞ pause
-                        <a href="https://tc39.es/proposal-atomics-microwait/#Atomics.pause"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (19)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 10 January 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ Animation ➞ overallProgress
-              </li>
-              <li>api ➞ Document ➞ moveBefore
-              </li>
-              <li>api ➞ DocumentFragment ➞ moveBefore
-              </li>
-              <li>api ➞ Element ➞ moveBefore
-              </li>
-              <li>api ➞ FileSystemObserver ➞ FileSystemObserver
-              </li>
-              <li>api ➞ FileSystemObserver
-              </li>
-              <li>api ➞ FileSystemObserver ➞ disconnect
-              </li>
-              <li>api ➞ FileSystemObserver ➞ observe
-              </li>
-              <li>api ➞ GPUDevice ➞ adapterInfo
-              </li>
-              <li>api ➞ HTMLAreaElement ➞ attributionSrc
-              </li>
-              <li>api ➞ IdentityProvider ➞ resolve_static
-              </li>
-              <li>api ➞ Navigator ➞ getInterestGroupAdAuctionData
-              </li>
-              <li>api ➞ PerformanceResourceTiming ➞ finalResponseHeadersStart
-              </li>
-              <li>api ➞ fetch ➞ body_readablestream
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ properties ➞ container-type ➞ scroll-state
-              </li>
-              <li>css ➞ properties ➞ scroll-initial-target
-              </li>
-              <li>css ➞ properties ➞ scroll-initial-target ➞ nearest
-              </li>
-              <li>css ➞ properties ➞ scroll-initial-target ➞ none
-              </li>
-          </ol>
-            <h4>JAVASCRIPT</h4>
-          <ol>
-              <li>javascript ➞ builtins ➞ Atomics ➞ pause
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (0)</h3>
-        <div class="outline-container">
-          No features were removed from bcd in this time period
-    </details>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.29">v5.6.29</a> <small>(Friday, 10 January 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.31">v5.6.31</a> <small>(Friday, 17 January 2025)</small>
 			</span>
 		</div>
   </footer>
